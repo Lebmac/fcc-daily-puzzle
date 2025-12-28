@@ -1,11 +1,15 @@
 /* 
 === Rock, Paper, Scissors ====
+
+=== Source ===
+https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-27
+
+=== Inputs ===
 Given two strings, 
 the first representing Player 1 and 
 the second representing Player 2, 
 determine the winner of a match of Rock, Paper, Scissors.
-
-=== The input strings will always be ===
+The input strings will always be
 "Rock", "Paper", or "Scissors".
 
 === Functionality ===
@@ -72,6 +76,5 @@ function rockPaperScissors(player1, player2) {
     infinite choices
     Some investigation suggests yes, and I'd like to build that function out
     in the future.
-
 */
 
