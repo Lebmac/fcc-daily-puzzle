@@ -46,7 +46,9 @@ function checkSeatCriteria(seat, seatToLeft) {
 /*
 === Design Rationale === 
 1.  The input structure has two rows which need to be scanned in opposite directions.
-    One row can be flipped for ease of scanning, the same logic can be applied to both rows.
+    One row can be flipped for ease of scanning, this way the same logic can be applied 
+    to both rows without having to think about iterating in different directions through
+    each side of the table. This would be hard to read/re-interpret in the future.
 2.  The logic will scan the rows and need some way of determining the last seat which has 
     fewer "availability" criteria. The arrays representing top and bottom can have an 
     "always empty seat appended to the array, this gives the programme something to compare
